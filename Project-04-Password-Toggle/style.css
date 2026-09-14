@@ -1,0 +1,13 @@
+/* Presentation only; complete the behaviour in the student source file. */
+* { box-sizing: border-box; }
+body { margin: 0; padding: 32px 20px; background: #f3f5f9; color: #182235; font: 16px/1.6 system-ui, sans-serif; }
+main, #root > div { max-width: 720px; margin: 0 auto; background: white; padding: 28px; border: 1px solid #dce2eb; border-radius: 12px; }
+h1 { font-size: 1.6rem; margin-top: 0; }
+button, input, textarea, select { font: inherit; }
+button { padding: 8px 14px; margin: 6px 6px 6px 0; cursor: pointer; }
+input, textarea, select { max-width: 100%; padding: 8px; border: 1px solid #8793a6; border-radius: 4px; }
+textarea { display: block; width: 100%; min-height: 120px; }
+:focus-visible { outline: 3px solid #386bd6; outline-offset: 3px; }
+.panel { margin-top: 20px; padding: 16px; background: #eef2f8; }
+.starter-note { color: #556175; font-size: .9rem; }
+li { padding: 6px; }

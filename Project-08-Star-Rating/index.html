@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star Rating Component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<main>
+  <h1>Star Rating Component</h1>
+  <p class="starter-note">Student starter: read README.md and complete the TODOs.</p>
+<div id="rating">
+    <button type="button" class="star" aria-label="Rate 1 stars" onclick="rate(0)">★</button>
+    <button type="button" class="star" aria-label="Rate 2 stars" onclick="rate(1)">★</button>
+    <button type="button" class="star" aria-label="Rate 3 stars" onclick="rate(2)">★</button>
+    <button type="button" class="star" aria-label="Rate 4 stars" onclick="rate(3)">★</button>
+    <button type="button" class="star" aria-label="Rate 5 stars" onclick="rate(4)">★</button>
+</div>
+
+<p>
+    Rating: <span id="ratingValue">0</span>
+</p>
+</main>
+</body>
+</html>
