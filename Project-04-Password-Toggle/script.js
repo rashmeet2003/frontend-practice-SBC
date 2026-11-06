@@ -5,6 +5,13 @@ function togglePassword() {
 
     // TODO:
     // Check the current type of the password input
+    if(password.type == "password"){
+        password.type = "text";
+        button.textContent = "Hide Password";
+    }else{
+        password.type = "password";
+        button.textContent = "Show Password";
+    }
 
     // If type is "password":
     //     change it to "text"
@@ -13,5 +20,4 @@ function togglePassword() {
     // Otherwise:
     //     change type back to "password"
     //     change button text to "Show Password"
-
 }
